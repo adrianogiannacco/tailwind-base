@@ -2,7 +2,7 @@
   "name": "tailwind-base",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/index.html",
   "scripts": {
     "prod": "NODE_ENV=production postcss src/tailwind.css -o public/main.css",
     "build:css": "postcss src/tailwind.css -o public/main.css",
